@@ -1,0 +1,8 @@
+torch
+transformers
+scikit-learn
+pandas
+numpy
+python-docx
+reportlab
+streamlit>=1.38.0
