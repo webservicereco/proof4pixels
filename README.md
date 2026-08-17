@@ -4,7 +4,7 @@ title: Proof4Pixels App 17Aug26
 emoji: 🚀
 colorFrom: blue
 colorTo: green
-sdk: streamlit                   # options: gradio, streamlit, docker, static
+sdk: streamlit  # options: gradio, streamlit, docker, static
 sdk_version: 1.38.0
 app_file: app.py
 pinned: false
