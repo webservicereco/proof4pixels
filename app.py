@@ -452,7 +452,7 @@ def launch_chrome_web_interface():
     # Modified url of the app on Streamlit Community Cloud for web browser (public) on new lines 451-470 on 18Aug26
     # =====================================================================
     
-    import streamlit as st
+    # import streamlit as st
 
     st.title("My Main App")
     st.write("Below is the embedded version of this app:")
