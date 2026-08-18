@@ -449,11 +449,11 @@ def launch_chrome_web_interface():
         st.caption(f"Logged {len(st.session_state.history_records)} analysis session page(s) in PDF report.")
 
     # =====================================================================
-    # Modified url of the app on Streamlit Community Cloud for web browser (public) on new lines 451-470 on 18Aug26
+    # Modified url of the app on Streamlit Community Cloud for web browser (public) on new lines 451-470 on 18Aug26. Later commented out because of double view.
     # =====================================================================
     
     # import streamlit as st
-
+    """
     st.title("My Main App")
     st.write("Below is the embedded version of this app:")
 
@@ -468,7 +468,7 @@ def launch_chrome_web_interface():
         """, 
         unsafe_allow_html=True
     )
-
+    """
     # =====================================================================
     # DOWNLOAD RESULTS SECTION
     # =====================================================================
