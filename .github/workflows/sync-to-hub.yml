@@ -19,7 +19,7 @@ jobs:
         uses: huggingface/hub-sync@v0.1.0
         with:
           github_repo_id: ${{ github.repository }}
-          huggingface_repo_id: Deeptwo/Proof4Pixels # Replace with your HF username and space name
+          huggingface_repo_id: Deeptwo/Proof4Pixels_app_18Aug26 # Replace with your HF username and space name
           #huggingface_repo_id: username/my-space # Replace with your HF username and space name
           
           hf_token: ${{ secrets.HF_TOKEN }}
