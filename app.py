@@ -453,22 +453,22 @@ def launch_chrome_web_interface():
     # =====================================================================
     
     # import streamlit as st
-    """
-    st.title("My Main App")
-    st.write("Below is the embedded version of this app:")
+  
+    # st.title("My Main App")
+    # st.write("Below is the embedded version of this app:")
 
     # Paste the iframe HTML layout directly into markdown
-    st.markdown(
-        """
-        <iframe 
-          src="https://proof4pixels.streamlit.app?embed=true"
-          style="width: 100%; height: 600px; border: none;"
-          allow="geolocation; microphone; camera">
-        </iframe>
-        """, 
-        unsafe_allow_html=True
-    )
-    """
+    # st.markdown(
+    #     """
+    #     <iframe 
+    #       src="https://proof4pixels.streamlit.app?embed=true"
+    #       style="width: 100%; height: 600px; border: none;"
+    #       allow="geolocation; microphone; camera">
+    #     </iframe>
+    #     """, 
+    #     unsafe_allow_html=True
+    # )
+   
     # =====================================================================
     # DOWNLOAD RESULTS SECTION
     # =====================================================================
