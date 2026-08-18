@@ -449,6 +449,27 @@ def launch_chrome_web_interface():
         st.caption(f"Logged {len(st.session_state.history_records)} analysis session page(s) in PDF report.")
 
     # =====================================================================
+    # Modified url of the app on Streamlit Community Cloud for web browser (public) on new lines 451-470 on 18Aug26
+    # =====================================================================
+    
+    import streamlit as st
+
+    st.title("My Main App")
+    st.write("Below is the embedded version of this app:")
+
+    # Paste the iframe HTML layout directly into markdown
+    st.markdown(
+        """
+        <iframe 
+          src="https://proof4pixels.streamlit.app?embed=true"
+          style="width: 100%; height: 600px; border: none;"
+          allow="geolocation; microphone; camera">
+        </iframe>
+        """, 
+        unsafe_allow_html=True
+    )
+
+    # =====================================================================
     # DOWNLOAD RESULTS SECTION
     # =====================================================================
     if len(st.session_state.history_records) > 0:
